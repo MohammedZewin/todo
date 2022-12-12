@@ -17,7 +17,7 @@ class MyThemeData {
           background: greenBackground,
           onBackground: primaryColor,
           surface: Colors.grey,
-          onSurface: Colors.white),
+          onSurface: Colors.black),
       appBarTheme: AppBarTheme(
           backgroundColor: primaryColor,
           iconTheme: IconThemeData(color: Colors.white)),
@@ -50,7 +50,7 @@ class MyThemeData {
           background: greenBackground,
           onBackground: primaryColor,
           surface: Colors.grey,
-          onSurface: Colors.white),
+          onSurface: Colors.black),
       appBarTheme: AppBarTheme(
           backgroundColor: primaryColor,
           iconTheme: IconThemeData(color: Colors.white)),
