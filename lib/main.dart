@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo84/layout/home_layout.dart';
@@ -6,7 +7,9 @@ import 'package:todo84/modules/tasks_list/tasks_list.dart';
 import 'package:todo84/provider/provide.dart';
 import 'package:todo84/shared/styles/myTheme.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
